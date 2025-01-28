@@ -7,7 +7,6 @@ Bem-vindo ao repositório do **Meu Site de Café**! Este projeto foi criado para
 - **Página inicial elegante:** Uma interface amigável para recepção e navegação.
 - **Loja virtual:** Venda de cafe.
 - **Localização:** Encontre nossas lojas físicas no mapa.
-- **Contato:** Formulário para sugestões e dúvidas.
 
 ## 🛠️ Tecnologias Utilizadas
 
