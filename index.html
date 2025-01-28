@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="caixa-video">
+        <video src="videos/coffe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header>
+
+        <section>
+            <a href="#">
+                <img src="img/logo.png" alt="Logo-cafeteria">
+            </a>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#caixa-sobre">Sobre</a>
+                <a onclick="mostrarModal()" href="#">Endereço</a>
+            </nav>
+
+        </section>
+
+    </header>
+
+
+    <section class="caixa-main">
+        <div>
+            <h3>Code com o melhor cafe da região</h3>
+            <p>onde cada xícara conta uma história. Seja o aroma envolvente, o sabor marcante ou a conexão que ele
+                proporciona, o café é mais do que uma bebida – é uma experiência.</p>
+            <a class="botao-link" href="#">Pegue o seu agora</a>
+        </div>
+    </section>
+
+
+    <section class="caixa-sobre" id="caixa-sobre">
+        <h2 class="titulo"><span>Sobre</span> Nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-img">
+                <img src="img/about-img.jpeg" alt="cafe">
+            </div>
+
+            <div class="sobre-txt">
+                <h3>Oque faz nosso cafe especial</h3>
+                <p>Aqui, celebramos todas as nuances dessa paixão mundial: dos grãos selecionados com cuidado à arte de
+                    prepará-los com perfeição. Mergulhe no fascinante mundo dos diferentes tipos de café, métodos de
+                    preparo e curiosidades que tornam esse ritual diário tão especial.
+
+                    Porque café não é apenas energia; é inspiração. ☕</p>
+                <a class="botao-link" href="#">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+        <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14817.298198611204!2d-49.609432399999996!3d-21.80638775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1738073380272!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="mascara2" onclick="esconderModal()"></div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
